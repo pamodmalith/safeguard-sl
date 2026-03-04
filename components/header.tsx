@@ -12,12 +12,13 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
+import { ModeToggle } from "./mode-toggle";
 
 const Header = () => {
   const pathname = usePathname();
   return (
     <>
-      <header className="sticky top-0 z-50 w-full border-b flex justify-between items-center bg-background/95 backdrop-blur">
+      <header className="sticky top-0 z-50 border-b flex justify-between items-center bg-background/95 backdrop-blur mx-3">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <LogoSL />
@@ -73,6 +74,9 @@ const Header = () => {
                 >
                   <Link href="/help">Get Help</Link>
                 </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <ModeToggle />
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
