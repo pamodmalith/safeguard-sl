@@ -5,7 +5,7 @@ import StatsSection from "./stats";
 
 export default function HeroSection() {
   return (
-    <section className="flex min-h-[80vh] flex-col items-center justify-center px-6 py-5">
+    <section className="flex min-h-[50vh] md:min-h-[60vh] flex-col items-center justify-center px-6 py-5">
       <div className="mx-auto max-w-4xl text-center">
         {/* Badge */}
         <Badge
@@ -37,7 +37,6 @@ export default function HeroSection() {
             Browse Scam Examples
           </Button>
         </div>
-        <StatsSection />
       </div>
     </section>
   );
