@@ -18,9 +18,10 @@ import { MenuIcon } from "lucide-react";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "Common Scams", href: "/scams" },
+  { name: "Common Scams", href: "/common-scams" },
+  { name: "Spot the Trap", href: "/spot-the-trap" },
   { name: "About", href: "/about" },
-  { name: "Get Help", href: "/help" },
+  { name: "Get Help", href: "/get-help" },
 ];
 
 const Header = () => {

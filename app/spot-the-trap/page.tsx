@@ -1,5 +1,4 @@
 import { Eye, Info } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { SpotTheTrapGame } from "@/components/spot-the-trap-game";
 
 export default function SpotTheTrapPage() {
