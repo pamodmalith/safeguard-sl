@@ -7,7 +7,7 @@ export default function Features() {
     <section className=" py-10 md:py-20 dark:bg-transparent">
       <div className="@container mx-auto max-w-6xl px-6">
         <div className="text-center md:text-left">
-          <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
+          <h2 className="text-balance text-4xl font-bold lg:text-5xl">
             How Does It Work?
           </h2>
           <p className="mt-4">

@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 
-import Features from "@/components/features-1";
+import Features from "@/components/features";
 import HeroSection from "@/components/hero-section";
 import StatsSection from "@/components/stats";
+import Ready from "@/components/ready";
 
 export const metadata: Metadata = {
   title: "Home - SafeGuard SL",
@@ -16,6 +17,8 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <Features />
+      <Ready />
+      <hr className="mt-10" />
     </>
   );
 }
