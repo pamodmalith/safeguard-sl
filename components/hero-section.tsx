@@ -3,19 +3,19 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="flex min-h-[80vh] flex-col items-center justify-center px-6 py-12">
+    <section className="flex min-h-[80vh] flex-col items-center justify-center px-6 py-5">
       <div className="mx-auto max-w-4xl text-center">
         {/* Badge */}
         <Badge
           variant="secondary"
-          className="mb-8 px-4 py-2 text-sm font-medium"
+          className="mb-8 px-4 py-2 text-sm font-medium hover:bg-background border-amber-500 border shadow-md shadow-zinc-950/5 transition-colors duration-300 "
         >
           🇱🇰 Sri Lanka Digital Safety Initiative
         </Badge>
 
         {/* Main Heading */}
         <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-          Learn to Spot Online Scams
+          Learn to Spot <span className="text-amber-500">Online Scams</span>
           <br />
           Before They Fool You
         </h1>
