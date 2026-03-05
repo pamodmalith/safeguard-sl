@@ -18,7 +18,6 @@ export default function Home() {
       <StatsSection />
       <Features />
       <Ready />
-      <hr className="mt-10" />
     </>
   );
 }

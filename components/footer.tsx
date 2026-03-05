@@ -23,7 +23,7 @@ const links = [
 
 export default function FooterSection() {
   return (
-    <footer className="pt-16 pb-5">
+    <footer className="pt-12 pb-5 bg-background border-t border-border">
       <div className="mx-auto max-w-5xl px-6">
         <Link href="/" aria-label="go home" className="mx-auto block size-fit">
           <LogoSL />
