@@ -184,15 +184,15 @@ export default function GetHelpPage() {
       {/* Safety Reminder */}
       <section className="bg-background py-12 lg:py-20">
         <div className="mx-auto max-w-3xl px-4 lg:px-8">
-          <Card className="border-safe/20 bg-safe/5">
+          <Card className="border-green-600/20 bg-green-600/5">
             <CardContent className="flex flex-col items-center gap-3 p-8 text-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-safe/10">
-                <ShieldCheck className="h-6 w-6 text-safe" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-green-600/10">
+                <ShieldCheck className="h-6 w-6 text-green-600" />
               </div>
-              <h2 className="text-lg font-bold text-foreground">
+              <h2 className="text-2xl font-bold text-foreground">
                 Remember: You Are Not Alone
               </h2>
-              <p className="max-w-md text-xs leading-relaxed text-muted-foreground">
+              <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
                 Scams can happen to anyone, regardless of age or experience.
                 There is no shame in being targeted. The most important thing is
                 to act quickly, report the incident, and protect yourself from

@@ -6,7 +6,7 @@ export default function SpotTheTrapPage() {
     <div className="flex flex-col">
       {/* Page Header */}
       <section className="border-b border-border bg-blue-600/5 min-h-[30vh] items-center flex">
-        <div className="mx-auto max-w-7xl px-4 py-1 lg:px-8 lg:py-1">
+        <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-1">
           <div className="mx-auto max-w-2xl text-center">
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
               <Eye className="h-6 w-6 text-primary" />

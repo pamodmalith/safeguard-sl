@@ -4,12 +4,16 @@ import { Facebook, Instagram, LinkedIn, Thread, TikTok, X } from "./logo";
 
 const links = [
   {
+    title: "Home",
+    href: "/",
+  },
+  {
     title: "Common Scams",
-    href: "/scams",
+    href: "/common-scams",
   },
   {
     title: "Get Help",
-    href: "/help",
+    href: "/get-help",
   },
   {
     title: "About",
