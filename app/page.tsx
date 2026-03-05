@@ -1,7 +1,8 @@
-import Header from "@/components/header";
+import { Metadata } from "next";
+
+import Features from "@/components/features-1";
 import HeroSection from "@/components/hero-section";
 import StatsSection from "@/components/stats";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Home - SafeGuard SL",
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <HeroSection />
       <StatsSection />
+      <Features />
     </>
   );
 }
