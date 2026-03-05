@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col">
       {/* Page Header */}
-      <section className="border-b border-border bg-background">
+      <section className="border-b border-border bg-teal-400/5 min-h-[30vh] items-center flex">
         <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-2xl text-center">
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">

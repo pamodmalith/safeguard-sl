@@ -5,8 +5,8 @@ export default function SpotTheTrapPage() {
   return (
     <div className="flex flex-col">
       {/* Page Header */}
-      <section className="border-b border-border bg-background">
-        <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8 lg:py-16">
+      <section className="border-b border-border bg-blue-600/5 min-h-[30vh] items-center flex">
+        <div className="mx-auto max-w-7xl px-4 py-1 lg:px-8 lg:py-1">
           <div className="mx-auto max-w-2xl text-center">
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
               <Eye className="h-6 w-6 text-primary" />
@@ -14,7 +14,7 @@ export default function SpotTheTrapPage() {
             <h1 className="text-balance text-2xl font-bold text-foreground lg:text-4xl">
               Spot the Trap
             </h1>
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+            <p className="mt-3 text-base leading-relaxed text-muted-foreground">
               Practice identifying scam messages in a safe environment. Read
               each message carefully, identify the red flags, then decide if it
               is safe or a scam.
