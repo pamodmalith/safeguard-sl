@@ -1,7 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { PlayIcon } from "lucide-react";
-import StatsSection from "./stats";
 
 export default function HeroSection() {
   return (
