@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { PlayIcon } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -28,16 +29,10 @@ export default function HeroSection() {
 
         {/* Action Buttons */}
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-          <Button size="lg" className="text-lg px-8 py-4 h-auto">
-            Start Learning Now
+          <Button>
+            <PlayIcon /> Start the Training
           </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="text-lg px-8 py-4 h-auto"
-          >
-            Watch Demo Video
-          </Button>
+          <Button variant="secondary">Browse Scam Examples</Button>
         </div>
       </div>
     </section>
