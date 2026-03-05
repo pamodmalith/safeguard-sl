@@ -136,7 +136,7 @@ export default function CommonScamsPage() {
           <div className="flex flex-col gap-4">
             {scams.map((scam, index) => (
               <Card
-                key={scam.title}
+                key={index}
                 className="overflow-hidden border-border bg-card"
               >
                 <CardContent className="p-0">
