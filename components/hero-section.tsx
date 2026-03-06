@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="flex min-h-[50vh] md:min-h-[60vh] flex-col items-center justify-center px-6 py-5">
+    <section className="flex min-h-[50vh] md:min-h-[60vh] bg-blue-600/5 flex-col items-center justify-center px-6 py-5">
       <div className="mx-auto max-w-4xl text-center">
         {/* Badge */}
         <Badge
@@ -31,12 +31,15 @@ export default function HeroSection() {
         {/* Action Buttons */}
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
           <Link href="/spot-the-trap">
-            <Button className="cursor-pointer">
+            <Button className="cursor-pointer p-6 min-w-55 text-lg">
               <PlayIcon /> Start the Training
             </Button>
           </Link>
           <Link href="/common-scams">
-            <Button variant="secondary" className="cursor-pointer">
+            <Button
+              variant="secondary"
+              className="cursor-pointer p-6 min-w-55 text-lg"
+            >
               Browse Scam Examples
             </Button>
           </Link>
