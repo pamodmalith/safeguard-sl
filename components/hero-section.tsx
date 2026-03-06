@@ -16,7 +16,7 @@ export default function HeroSection() {
         </Badge>
 
         {/* Main Heading */}
-        <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl">
           Learn to Spot <span className="text-amber-500">Online Scams</span>
           <br />
           Before They Fool You
