@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 import {
   Phone,
   ShieldCheck,
@@ -82,6 +84,12 @@ const steps = [
       "Warn your family and friends about the scam so they do not fall for the same trick. Scammers often target multiple people in the same community.",
   },
 ];
+
+export const metadata: Metadata = {
+  title: "Get Help - SafeGuard SL",
+  description:
+    "If you think you have been scammed or received a suspicious message, follow these steps and contact the authorities below.",
+};
 
 export default function GetHelpPage() {
   return (

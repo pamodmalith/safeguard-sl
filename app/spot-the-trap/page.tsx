@@ -1,5 +1,13 @@
+import { Metadata } from "next";
+
 import { Eye, Info } from "lucide-react";
 import { SpotTheTrapGame } from "@/components/spot-the-trap-game";
+
+export const metadata: Metadata = {
+  title: "Spot the Trap - SafeGuard SL",
+  description:
+    "Practice identifying scam messages in a safe environment. Read each message carefully, identify the red flags, then decide if it is safe or a scam.",
+};
 
 export default function SpotTheTrapPage() {
   return (

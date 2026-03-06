@@ -1,6 +1,12 @@
-"use client";
+import { Metadata } from "next";
 
 import { Users, Target } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "About - SafeGuard SL",
+  description:
+    "Learn about Digital SafeGuard SL, a free educational project dedicated to protecting older adults in Sri Lanka from digital financial scams. Our mission is to provide an interactive, accessible resource that teaches users how to visually identify and avoid common scams like SMS phishing and WhatsApp impersonation.",
+};
 
 export default function AboutPage() {
   return (

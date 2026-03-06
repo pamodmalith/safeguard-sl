@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 import {
   MessageSquare,
   Phone,
@@ -108,6 +110,12 @@ function getSeverityColor(severity: string) {
       return "bg-muted text-muted-foreground border-border";
   }
 }
+
+export const metadata: Metadata = {
+  title: "Common Digital Scams - SafeGuard SL",
+  description:
+    "Learn to recognise these common tricks used by scammers. Understanding how they work is your best defence.",
+};
 
 export default function CommonScamsPage() {
   return (
