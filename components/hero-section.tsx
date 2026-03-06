@@ -38,7 +38,7 @@ export default function HeroSection() {
           <Link href="/common-scams">
             <Button
               variant="secondary"
-              className="cursor-pointer p-6 min-w-55 text-lg border border-blue-600"
+              className="cursor-pointer p-6 min-w-55 text-lg border border-blue-500"
             >
               Browse Scam Examples
             </Button>

@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Smartphone, Search, Check } from "lucide-react";
+import { Search, Check, MessageSquareWarningIcon } from "lucide-react";
 import { ReactNode } from "react";
 
 export default function Features() {
@@ -17,9 +17,13 @@ export default function Features() {
         <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
           <Card className="group shadow-zinc-950/5">
             <CardHeader className="pb-1">
-              <CardDecorator>
-                <Smartphone className="size-6" strokeWidth={4} aria-hidden />
-              </CardDecorator>
+              <div className="flex items-center justify-center">
+                <MessageSquareWarningIcon
+                  className="size-16"
+                  strokeWidth={2}
+                  aria-hidden
+                />
+              </div>
 
               <h3 className="mt-2 font-medium">See a Real Scam</h3>
             </CardHeader>
@@ -34,9 +38,9 @@ export default function Features() {
 
           <Card className="group shadow-zinc-950/5">
             <CardHeader className="pb-1">
-              <CardDecorator>
-                <Search className="size-6" strokeWidth={4} aria-hidden />
-              </CardDecorator>
+              <div className="flex items-center justify-center">
+                <Search className="size-16" strokeWidth={2} aria-hidden />
+              </div>
 
               <h3 className="mt-2 font-medium">Spot the Traps</h3>
             </CardHeader>
@@ -51,9 +55,9 @@ export default function Features() {
 
           <Card className="group shadow-zinc-950/5">
             <CardHeader className="pb-1">
-              <CardDecorator>
-                <Check className="size-6" strokeWidth={4} aria-hidden />
-              </CardDecorator>
+              <div className="flex items-center justify-center">
+                <Check className="size-16" strokeWidth={2} aria-hidden />
+              </div>
 
               <h3 className="mt-2 font-medium">Stay Safe</h3>
             </CardHeader>
