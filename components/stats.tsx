@@ -5,15 +5,15 @@ export default function StatsSection() {
         <div className="grid gap-3 *:text-center grid-cols-2 md:grid-cols-4 dark:[--color-muted:var(--color-zinc-900)]">
           <div className="bg-muted dark:bg-transparent rounded-(--radius) space-y-4 py-12 border-blue-500 border shadow-md shadow-zinc-950/5">
             <div className="text-3xl text-amber-500 sm:text-5xl font-bold">
-              68%
+              12,650+
             </div>
-            <p className="text-xs sm:text-base">of victims are 50+</p>
+            <p className="text-xs sm:text-base">Cases in 2025</p>
           </div>
           <div className="bg-muted dark:bg-transparent rounded-(--radius) space-y-4 py-12 border-blue-500 border shadow-md shadow-zinc-950/5">
             <div className="text-3xl text-amber-500 sm:text-5xl font-bold">
-              Rs 2.1B
+              LKR 15B
             </div>
-            <p className="text-xs sm:text-base">Lost to fraud in 2023</p>
+            <p className="text-xs sm:text-base">Lost to single fraud</p>
           </div>
           <div className="bg-muted dark:bg-transparent rounded-(--radius) space-y-4 py-12 border-blue-500 border shadow-md shadow-zinc-950/5">
             <div className="text-3xl text-amber-500 sm:text-5xl font-bold">
